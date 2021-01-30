@@ -5,14 +5,14 @@ pyMol cookbook for Protein Crystallography course @ University of Cologne (WS20)
 Table of Contents
 =================
 
-   * [pyMol cookbook](#pymol-cookbook)
-   * [Table of Contents](#table-of-contents)
-      * [Distances](#distances)
-      * [Coloring](#coloring)
-      * [Movies and scenes](#movies-and-scenes)
-      * [Rendering](#rendering)
-      * [Useful selections](#useful-selections)
-      * [Protein stability](#protein-stability)
+* [pyMol cookbook](#pymol-cookbook)
+* [Table of Contents](#table-of-contents)
+* [Distances](#distances)
+* [Coloring](#coloring)
+* [Movies and scenes](#movies-and-scenes)
+* [Rendering](#rendering)
+* [Useful selections](#useful-selections)
+* [Protein stability](#protein-stability)
 
 `reinit` clear and delete everything
 
