@@ -21,7 +21,15 @@ Table of Contents
 
 `fetch 1w2i, type=2fofc, async=0` download the 2fofc electron density map
 
-isomesh mesh1, 1w2i_2fofc, 1.0, active_site, carve=1.6` showing electron density map. `mesh` is just a name you give. `isomesh var_name, ED_data, map_scale, what-residue-put-here, carving` carve cuts out the stuff not related to your active site 
+---
+
+`isomesh mesh1, 1w2i_2fofc, 1.0, active_site, carve=1.6` show electron density map. 
+
+`mesh` is just a name you give. 
+
+`isomesh var_name, ED_data, map_scale, what-residue-put-here, carving` carve cuts out the stuff not related to your active site
+
+---
 
 `set surface_color, gray70` 
 
