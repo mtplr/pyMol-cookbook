@@ -1,6 +1,6 @@
 # pyMol Cookbook
 
-pyMol cookbook for Protein Crystallography course @ University of Cologne (WS20).
+pyMol cookbook and quick notes for Protein Crystallography course @ University of Cologne (WS20).
 
 Table of Contents
 =================
