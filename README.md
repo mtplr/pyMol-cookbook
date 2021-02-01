@@ -159,6 +159,17 @@ In general:
 select basic, resn arg+lys
 select acid, resn asp+glu
 
+show sticks, basic
+show sticks, acid
+
+color red, basic and name o*
+color blue, basic and name n*
+color pink, basic and name c*
+
+color red, acid and name o*
+color blue, acid and name n*
+color pink, acid and name c*
+
 dist name, basic, acid, mode=2
 ```
 
@@ -166,6 +177,8 @@ dist name, basic, acid, mode=2
 
 ```
 select aromatics, (resn phe+tyr+trp+his)
+show sticks, aromatics
+color pink, aromatics
 ```
 
 **Solvent interaction**
@@ -179,12 +192,27 @@ show spheres, solvent  # or sticks, etc...
 ```
 # We have R-S-S-R'. Cys can make them. 
 
-show sticks, resn cys
+select disulfur, resn cys
+show sticks, disulfur
+color yellow, disulfur
 ```
 
 **Dipole interactions**
 
 It is an interaction between aromatics (Trp, Tyr, Phe) and Arg+Lys
+
+```
+select aromatics, resn phe+tyr+trp+his
+select arglys, resn arg+lys
+color pink, aromatics
+
+show sticks, aromatics
+show sticks, arglys
+
+color red, arglys and name o*
+color blue, arglys and name n*
+color pink, arglys and name c*
+```
 
 **Hydrophobics**
 
