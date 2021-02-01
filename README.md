@@ -103,9 +103,11 @@ color blue, /ca/A/A/TRP`158  # color blue just the W158 in chain A
 
 
 ## Movies and scenes
-
-`scene electron_density, store` 
-`set scene_buttons, 1`
+```
+# Set a scene
+scene electron_density, store
+set scene_buttons, 1
+```
 
 ```
 # Movie
