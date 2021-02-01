@@ -199,10 +199,10 @@ color yellow, disulfur
 
 **Dipole interactions**
 
-It is an interaction between aromatics (Trp, Tyr, Phe) and Arg+Lys
+It is an interaction between aromatics (Trp, Tyr, Phe) and (Arg, Lys)
 
 ```
-select aromatics, resn phe+tyr+trp+his
+select aromatics, resn tyr+trp+phe
 select arglys, resn arg+lys
 color pink, aromatics
 
@@ -212,6 +212,12 @@ show sticks, arglys
 color red, arglys and name o*
 color blue, arglys and name n*
 color pink, arglys and name c*
+
+color red, aromatics and name o*
+color blue, aromatics and name n*
+color pink, aromatics and name c*
+
+dist name, arglys, aromatics, mode=2
 ```
 
 **Hydrophobics**
