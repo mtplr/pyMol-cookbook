@@ -114,7 +114,7 @@ set scene_buttons, 1
 
 # It creates a movie from the selected scenes
 
-mset 1x600 # 30 fps x 10 seconds
+mset 1x600 # 60 fps x 10 seconds
 
 mview store, 1, scene=1
 mview store, 300, scene=2
