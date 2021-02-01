@@ -1,4 +1,4 @@
-# pyMol notes
+# pyMol Cookbook
 
 pyMol cookbook for Protein Crystallography course @ University of Cologne (WS20).
 
@@ -62,7 +62,7 @@ Select Asp385 and show it as sticks.
 
 One way to measure distances: `Wizard->measure distance`
 
-Also, you can click on an object, and get e.g. `#/1w2i/C/A/FMT`1092/C`, so you can say "measure the distance from the residue 2". `mode=2` is the polar mode.
+Also, you can click on an object, and get e.g. ``#/1w2i/C/A/FMT`1092/C``, so you can say "measure the distance from the residue 2". `mode=2` is the polar mode.
 
 ```
 dist polar1, resi 1092, resi 20, mode=2
@@ -92,6 +92,13 @@ color purple, sheetC
 select cpE, chain E
 color cyan, cpE
 show sticks, cpE
+```
+
+You can also click on an obect, see its code and color only it by using that specific path.
+
+```
+color gray70, all
+color blue, /ca/A/A/TRP`158  # color blue just the W158 in chain A
 ```
 
 
