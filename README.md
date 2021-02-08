@@ -104,21 +104,22 @@ color blue, /ca/A/A/TRP`158  # color blue just the W158 in chain A
 
 ## Movies and scenes
 ```
-# Set a scene
+# Set a scene (maybe after a "set_view"...)
+
 scene electron_density, store
 set scene_buttons, 1
-```
 
-```
 # Movie
 
 # It creates a movie from the selected scenes
 
-mset 1x600 # 60 fps x 10 seconds
+mset 1x1000 # 30 fps x 33 seconds
 
-mview store, 1, scene=1
-mview store, 300, scene=2
-mview store, 600, scene=3
+mview store, 1, scene=main
+mview store, 250, scene=behind
+mview store, 450, scene=top
+mview store, 750, scene=active_site1
+mview store, 900, scene=active_site2
 ```
 
 ## Rendering
