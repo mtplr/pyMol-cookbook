@@ -122,6 +122,9 @@ mview store, 750, scene=active_site1
 mview store, 900, scene=active_site2
 ```
 
+To export a movie: `File > Export Movie As...`
+
+
 ## Rendering
 
 `ray 1920,1080` renders current view in FullHD
