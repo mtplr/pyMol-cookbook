@@ -1,6 +1,6 @@
 # pyMol Cookbook
 
-pyMol cookbook and quick notes by Matteo Paolieri for Protein Crystallography course @ University of Cologne (Chemistry, WS20).
+pyMol cookbook and quick notes by Matteo Paolieri for Protein Crystallography course @ University of Cologne (MS Chemistry, WS20).
 
 Table of Contents
 =================
