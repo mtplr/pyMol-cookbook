@@ -21,6 +21,10 @@ Table of Contents
 
 `fetch 1w2i, type=2fofc, async=0` download the 2fofc electron density map
 
+`get_symmetry object-name-or-selection` gives you a tuple of 7 elements: (a,b,c), (α,β,γ) and space group name as e.g. "P212121"
+
+[Supercell](https://pymolwiki.org/index.php/Supercell) can display multiple copies of the unit cell.
+
 ---
 
 `isomesh mesh1, 1w2i_2fofc, 1.0, active_site, carve=1.6` show electron density map. 
