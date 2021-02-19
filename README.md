@@ -4,7 +4,6 @@ pyMol cookbook and quick notes by Matteo Paolieri for Protein Crystallography co
 
 Table of Contents
 =================
-* [Table of Contents](#table-of-contents)
 * [Misc](#misc)
 * [Distances](#distances)
 * [Coloring](#coloring)
