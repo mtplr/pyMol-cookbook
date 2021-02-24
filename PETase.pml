@@ -1,5 +1,5 @@
 # PETase enzyme, PDB: 6ANE, DOI:1016/j.bpj.2018.02.005
-# To load this script in pyMol: @patH/to/PETase.pml
+# To load this script in pyMol: @path/to/PETase.pml
 
 # @C:\Master\Biochemistry\Seminar\PETase-seminar\petase-6ane.pml
 
