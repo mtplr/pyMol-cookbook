@@ -249,7 +249,7 @@ set cartoon_smooth_loops,0
 
 # Example
 
-[Here](PETase.plm) you can find an example (PETase enzyme) that summarize many useful commands reported here. Just import in pyMol (`@path/to/script.pml`) and see it.
+[Here](PETase.pml) you can find an example (PETase enzyme) that summarize many useful commands reported here. Just import in pyMol (`@path/to/script.pml`) and see it.
 
 # Resources
 
