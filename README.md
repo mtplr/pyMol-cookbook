@@ -14,6 +14,8 @@ Table of Contents
 
 # Misc
 
+`@path/to/file` load the script (plain text)
+
 `reinit` clear and delete everything
 
 `fetch 6ane, async=0` download the pdb and wait
