@@ -11,6 +11,8 @@ Table of Contents
 * [Rendering](#rendering)
 * [Useful selections](#useful-selections)
 * [Protein stability](#protein-stability)
+* [Example](#example)
+* [Resources](#resources)
 
 # Misc
 
@@ -244,6 +246,10 @@ color orange,hydrophobes
 disable hydrophobes
 set cartoon_smooth_loops,0
 ```
+
+# Example
+
+[Here](PETase.plm) you can find an example (PETase enzyme) that summarize many useful commands reported here. Just import in pyMol (`@path/to/script.pml`) and see it.
 
 # Resources
 
