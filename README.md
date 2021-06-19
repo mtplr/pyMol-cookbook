@@ -1,9 +1,18 @@
 # pyMol Cookbook
 
-pyMol cookbook and quick notes by Matteo Paolieri for Protein Crystallography course @ University of Cologne (MS Chemistry, WS20).
+pyMol cookbook and quick notes by **Matteo Paolieri** for Protein Crystallography course at the University of Cologne, MS Chemistry, January 2021.
 
-Table of Contents
-=================
+## License
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by]: _you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use._
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+
+## Table of Contents
+* [License](#license)
 * [Misc](#misc)
 * [Distances](#distances)
 * [Coloring](#coloring)
@@ -14,7 +23,7 @@ Table of Contents
 * [Example](#example)
 * [Resources](#resources)
 
-# Misc
+## Misc
 
 `@path/to/file` load the script (plain text)
 
@@ -76,7 +85,7 @@ dist polar1, resi 1092, resi 20, mode=2
 ```
 
 
-## Coloring
+### Coloring
 
 Select a chain, color it as cyan and then show it as sticks. 
 
@@ -109,7 +118,8 @@ color blue, /ca/A/A/TRP`158  # color blue just the W158 in chain A
 ```
 
 
-## Movies and scenes
+### Movies and scenes
+
 ```
 # Set a scene (maybe after a "set_view"...)
 
@@ -131,12 +141,11 @@ mview store, 900, scene=active_site2
 
 To export a movie: `File > Export Movie As...`
 
-
-## Rendering
+### Rendering
 
 `ray 1920,1080` renders current view in FullHD
 
-## Useful selections
+### Useful selections
 
 ```
 # Select Asp385 and color atoms accordingly
@@ -152,7 +161,7 @@ center aspzoom
 zoom center, 25
 ```
 
-## Protein stability
+### Protein stability
 
 Main things to check for protein stability:
 
@@ -247,11 +256,11 @@ disable hydrophobes
 set cartoon_smooth_loops,0
 ```
 
-# Example
+## Example
 
 [Here](PETase.pml) you can find an example (PETase enzyme) that summarize many useful commands reported here. Just import in pyMol (`@path/to/script.pml`) and see it.
 
-# Resources
+## Resources
 
 * [PyMol wiki](https://pymolwiki.org/index.php/Main_Page)
 
